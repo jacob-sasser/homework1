@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "hw1.html",
+    "href": "hw1.html",
+    "title": "Data science homework 1",
+    "section": "",
+    "text": "data science is about turning data into actionable insights.\ndata science has a much heavier coding aspect, statisticians also tend to have more theoretical training while I have always seen data science as much more applied. I do think that recently the line between the two has been getting more and more faded.\nI have always been more of a data scientist in my internships and during school\n\n\ny &lt;- density(iris$Petal.Width)\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nHere is are some of the attributes of the data, y is of class ‘density’ and is stored as a list, it has the name “width” and N=150undefined\n\n\n\n\n\n\n\n\n\nHere is a plot of density vs the width on the 150 trials, using plot(y)"
+  },
+  {
+    "objectID": "hw1.html#step-3",
+    "href": "hw1.html#step-3",
+    "title": "Data science homework 1",
+    "section": "",
+    "text": "data science is about turning data into actionable insights.\ndata science has a much heavier coding aspect, statisticians also tend to have more theoretical training while I have always seen data science as much more applied. I do think that recently the line between the two has been getting more and more faded.\nI have always been more of a data scientist in my internships and during school\n\n\ny &lt;- density(iris$Petal.Width)\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nHere is are some of the attributes of the data, y is of class ‘density’ and is stored as a list, it has the name “width” and N=150undefined\n\n\n\n\n\n\n\n\n\nHere is a plot of density vs the width on the 150 trials, using plot(y)"
+  }
+]

@@ -1,0 +1,31 @@
+---
+title: "Data science homework 1"
+format: html
+editor: visual
+---
+
+## Step 3
+
+- data science is about turning data into actionable insights.
+
+- data science has a much heavier coding aspect, statisticians also tend to have more theoretical training while I have always seen data science as much more applied. I do think that recently the line between the two has been getting more and more faded.
+
+- I have always been more of a data scientist in my internships and during school
+
+```{r}
+y <- density(iris$Petal.Width)
+class(y)
+typeof(y)
+str(y)
+
+
+```
+
+Here is are some of the attributes of the data, y is of class 'density' and is stored as a list, it has the name "width" and N=150undefined
+
+```{r plot-y, echo=FALSE}
+plot(y)
+
+```
+
+Here is a plot of density vs the width on the 150 trials, using plot(y)
